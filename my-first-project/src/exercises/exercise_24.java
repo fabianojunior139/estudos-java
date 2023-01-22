@@ -10,7 +10,7 @@ public class exercise_24 {
         char wishContinue = 'y';
 
         while (wishContinue == 'y' || wishContinue == 'Y') {
-            System.out.print("Type any number: ");
+            System.out.print("Write any number: ");
             int WrittenNumber = scan.nextInt();
 
             if (WrittenNumber == 0) {
@@ -28,6 +28,5 @@ public class exercise_24 {
         }
 
         scan.close();
-
     }
 }
